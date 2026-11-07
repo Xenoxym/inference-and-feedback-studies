@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.safetensors
+*.pt
+*.pth
+*.pdf
+*.zip
+results/*_rerun*/
+results/*_smoke*/
+results/driving_feedback/raw/
+results/driving_feedback/training/
+sources/SmolLM2-135M/*
+!sources/SmolLM2-135M/config.json
+!sources/SmolLM2-135M/revision.txt

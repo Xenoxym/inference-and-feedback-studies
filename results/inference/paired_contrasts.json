@@ -1,0 +1,35 @@
+{
+  "adaptive_vs_fixed8_request": {
+    "time_ratios": [
+      1.002271659408909,
+      1.0170420735395602,
+      1.031901714178212,
+      1.0475017216840545,
+      1.0271106435984678
+    ],
+    "median_percent_change": 2.711064359846782,
+    "all_greater_than_one": true
+  },
+  "adaptive_vs_fixed8_cross": {
+    "time_ratios": [
+      1.014301771529802,
+      1.0343576914133552,
+      1.0249662653134386,
+      1.0184409089188653,
+      1.050629608911671
+    ],
+    "median_percent_change": 2.4966265313438596,
+    "all_greater_than_one": true
+  },
+  "cross_vs_request_fixed8": {
+    "time_ratios": [
+      1.0797780911901282,
+      1.0722342249504917,
+      1.082189302551168,
+      1.1064710308295915,
+      1.043841367700289
+    ],
+    "median_percent_change": 7.977809119012824,
+    "all_greater_than_one": true
+  }
+}

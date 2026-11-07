@@ -1,0 +1,283 @@
+{
+  "output_ids": [
+    198,
+    198,
+    504,
+    808,
+    6330,
+    314,
+    253,
+    1890,
+    3091,
+    1110,
+    6330,
+    563,
+    2092,
+    30,
+    198,
+    198
+  ],
+  "output_text": "\n\nThe first sentence is a short warmup sentence about science.\n\n",
+  "setup_s": 5.999754648655653e-07,
+  "prefill_s": 0.1117235999845434,
+  "decode_s": 1.2850999000074808,
+  "warm_request_s": 1.3969142999849282,
+  "rounds": [
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        198
+      ],
+      "draft_s": 0.00045599997974932194,
+      "verify_s": 0.08356930001173168,
+      "commit_s": 0.00043810001807287335,
+      "rollback_s": 5.810000584460795e-05,
+      "round_s": 0.08456079999450594,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        198
+      ],
+      "draft_s": 0.0004105999832972884,
+      "verify_s": 0.08263220000662841,
+      "commit_s": 0.00020369997946545482,
+      "rollback_s": 5.910001345910132e-05,
+      "round_s": 0.08332549998885952,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        504
+      ],
+      "draft_s": 0.00034359999699518085,
+      "verify_s": 0.08111500000813976,
+      "commit_s": 9.660000796429813e-05,
+      "rollback_s": 5.060000694356859e-05,
+      "round_s": 0.08161760002258234,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        808
+      ],
+      "draft_s": 0.0003302999830339104,
+      "verify_s": 0.08503449999261647,
+      "commit_s": 9.950000094249845e-05,
+      "rollback_s": 5.1799986977130175e-05,
+      "round_s": 0.08552309998776764,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        6330
+      ],
+      "draft_s": 0.0003324999997857958,
+      "verify_s": 0.0906280999770388,
+      "commit_s": 0.00013580001541413367,
+      "rollback_s": 7.120001828297973e-05,
+      "round_s": 0.09117650002008304,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        314
+      ],
+      "draft_s": 0.0004732999950647354,
+      "verify_s": 0.08740509999915957,
+      "commit_s": 0.00017680000746622682,
+      "rollback_s": 5.169998621568084e-05,
+      "round_s": 0.08812239998951554,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        253
+      ],
+      "draft_s": 0.00034050000249408185,
+      "verify_s": 0.08883999998215586,
+      "commit_s": 0.00011650001397356391,
+      "rollback_s": 7.280000136233866e-05,
+      "round_s": 0.08937809997587465,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        1890
+      ],
+      "draft_s": 0.0006782999844290316,
+      "verify_s": 0.091106400010176,
+      "commit_s": 0.0002367999986745417,
+      "rollback_s": 6.990000838413835e-05,
+      "round_s": 0.09210239999811165,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        3091
+      ],
+      "draft_s": 0.000519299996085465,
+      "verify_s": 0.08385970001108944,
+      "commit_s": 0.0003203000233042985,
+      "rollback_s": 8.490000618621707e-05,
+      "round_s": 0.08479550000629388,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        1110
+      ],
+      "draft_s": 0.0004062000080011785,
+      "verify_s": 0.08171319999382831,
+      "commit_s": 0.0001446999958716333,
+      "rollback_s": 7.780001033097506e-05,
+      "round_s": 0.08235350000904873,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        6330
+      ],
+      "draft_s": 0.0004327999777160585,
+      "verify_s": 0.0864716999931261,
+      "commit_s": 0.00010430000838823617,
+      "rollback_s": 5.040000542066991e-05,
+      "round_s": 0.08707489998778328,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        563
+      ],
+      "draft_s": 0.00035069999285042286,
+      "verify_s": 0.07724310000776313,
+      "commit_s": 0.00048299998161382973,
+      "rollback_s": 6.44999963697046e-05,
+      "round_s": 0.07815290000871755,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        2092
+      ],
+      "draft_s": 0.00038750001112930477,
+      "verify_s": 0.08311999999568798,
+      "commit_s": 0.00012549999519251287,
+      "rollback_s": 5.9999991208314896e-05,
+      "round_s": 0.08371859998442233,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        30
+      ],
+      "draft_s": 0.0003741999971680343,
+      "verify_s": 0.08550230000400916,
+      "commit_s": 0.00015199999324977398,
+      "rollback_s": 5.150001379661262e-05,
+      "round_s": 0.08609519997844473,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        198
+      ],
+      "draft_s": 0.0003372000064700842,
+      "verify_s": 0.08565850000013597,
+      "commit_s": 0.00010069998097606003,
+      "rollback_s": 5.490001058205962e-05,
+      "round_s": 0.0861583000223618,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": false
+    },
+    {
+      "budget": 0,
+      "draft": [],
+      "accepted": 0,
+      "committed": [
+        198
+      ],
+      "draft_s": 0.0003313999914098531,
+      "verify_s": 0.0,
+      "commit_s": 7.599999662488699e-06,
+      "rollback_s": 0.0,
+      "round_s": 0.00034070000401698053,
+      "discarded": 0,
+      "failed": false,
+      "final_shortcut": true
+    }
+  ]
+}

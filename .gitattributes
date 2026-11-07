@@ -1,0 +1,5 @@
+* text=auto eol=lf
+experiments/** -text
+results/** -text
+sources/** -text
+reports/assets/** -text

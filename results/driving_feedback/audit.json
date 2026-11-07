@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "rows": 7200,
+  "summary_rows": 120,
+  "test_npz_files": 600,
+  "training_npz_files": 90,
+  "metric_values_recomputed": 72000,
+  "distinct_environment_batches": 25,
+  "distinct_test_episodes": 300,
+  "pairing": "Environments are identical across methods, training coverage and label-noise conditions for a seed/scenario. Different scenarios use different seeds, so delay contrasts are not paired road-by-road.",
+  "uncertainty": "Five training/test seed groups per cell, twelve episodes each; no statistical-significance claim or independence across conditions.",
+  "expert_local_stability": [
+    {
+      "delay_steps": 0,
+      "delay_ms": 0,
+      "matrix": [
+        [
+          1.0,
+          0.4
+        ],
+        [
+          -0.037037037037037035,
+          0.8814814814814815
+        ]
+      ],
+      "spectral_radius": 0.9467292624062573,
+      "eigenvalues": [
+        {
+          "real": 0.9407407407407407,
+          "imag": 0.10631629699560982
+        },
+        {
+          "real": 0.9407407407407407,
+          "imag": -0.10631629699560982
+        }
+      ]
+    },
+    {
+      "delay_steps": 2,
+      "delay_ms": 100,
+      "matrix": [
+        [
+          1.0,
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.14814814814814814,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          -0.25,
+          -0.8,
+          0.0,
+          0.0
+        ]
+      ],
+      "spectral_radius": 0.9556185661867976,
+      "eigenvalues": [
+        {
+          "real": -0.2882259654001023,
+          "imag": 0.0
+        },
+        {
+          "real": 0.3939961762674171,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9471148945663421,
+          "imag": 0.12720149579111692
+        },
+        {
+          "real": 0.9471148945663421,
+          "imag": -0.12720149579111692
+        }
+      ]
+    },
+    {
+      "delay_steps": 6,
+      "delay_ms": 300,
+      "matrix": [
+        [
+          1.0,
+          0.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.14814814814814814,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          -0.25,
+          -0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "spectral_radius": 1.0113142778293824,
+      "eigenvalues": [
+        {
+          "real": -0.6370932339930263,
+          "imag": 0.0
+        },
+        {
+          "real": -0.3563525594685938,
+          "imag": 0.5424250344529093
+        },
+        {
+          "real": -0.3563525594685938,
+          "imag": -0.5424250344529093
+        },
+        {
+          "real": 0.28244064092618404,
+          "imag": 0.6344101937846122
+        },
+        {
+          "real": 0.28244064092618404,
+          "imag": -0.6344101937846122
+        },
+        {
+          "real": 0.7835141615284744,
+          "imag": 0.0
+        },
+        {
+          "real": 1.0007014547746846,
+          "imag": 0.1461272286515934
+        },
+        {
+          "real": 1.0007014547746846,
+          "imag": -0.1461272286515934
+        }
+      ]
+    }
+  ],
+  "stability_scope": "Unsaturated, zero-curvature, disturbance-free local dynamics; spectral radius is not a global or real-vehicle safety certificate.",
+  "analysis_sha256": "233804a88d2ac76344c49ed139e57cff23d0458781d659246204cc303dd94061"
+}

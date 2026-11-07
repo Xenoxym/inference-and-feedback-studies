@@ -1,0 +1,315 @@
+{
+  "checked_date": "2026-11-06",
+  "sources": [
+    {
+      "topic": "高效推理",
+      "id": "leviathan2023",
+      "title": "leviathan2023",
+      "url": "https://proceedings.mlr.press/v202/leviathan23a/leviathan23a.pdf",
+      "evidence": "P",
+      "read_scope": "正文 §1–4，算法 1、Theorem 3.8、附录 A.1；13 页全文已存",
+      "supports": "精确采样、理想成本式、原硬件实测",
+      "limits": "实际收益条件为单 TPU-v4、batch 1 与 T5X；理想 speedup 公式假设块验证成本恒定。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "disco_v2",
+      "title": "disco_v2",
+      "url": "https://arxiv.org/pdf/2405.04304v2",
+      "evidence": "A",
+      "read_scope": "§2–4，附录 D–F；9 页全文已存",
+      "supports": "继续/停止 classifier，训练/验证分开，结果分母",
+      "limits": "classifier 需训练；oracle 首次错误位置不是任意成本条件下的全局墙钟最优。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "banditspec_v2",
+      "title": "banditspec_v2",
+      "url": "https://arxiv.org/pdf/2505.15141v2",
+      "evidence": "A",
+      "read_scope": "§3–6、假设与定理、附录 B；35 页全文已存；代码 generate_utils/inference_length 抽查",
+      "supports": "bandit 轮数理论、吞吐实测、代码差异",
+      "limits": "轮数 regret 不等于任意时变墙钟 regret；当前公开长度实现探索项为所有臂共同标量。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "suffix_neurips2025",
+      "title": "suffix_neurips2025",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b7aea253ab34a773967f1e4cdea9e4fb-Paper-Conference.pdf",
+      "evidence": "P",
+      "read_scope": "§3–4、算法 1、附录 B.1/C，落地页与 PDF 对比；29 页全文已存；cache/simulator 抽查",
+      "supports": "全局/局部历史、树分数、真实与模拟评估",
+      "limits": "重复 agentic 工作负载优势不可泛化；官网摘要与正式 PDF 数字不同；模拟器不运行 target。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "sam_acl2025",
+      "title": "sam_acl2025",
+      "url": "https://aclanthology.org/2025.acl-long.595.pdf",
+      "evidence": "P",
+      "read_scope": "§2–4、算法 1、附录 A 的说明；18 页全文已存；draft.py 抽查",
+      "supports": "动态/静态 SAM、摊销复杂度的对象",
+      "limits": "摊销 O(1) 只覆盖 SAM 更新/匹配；离线语料准备应计入；当前代码接口不等于完全论文复现。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "opttree_tacl2025",
+      "title": "opttree_tacl2025",
+      "url": "https://aclanthology.org/2025.tacl-1.8.pdf",
+      "evidence": "P",
+      "read_scope": "§3–4，附录非贪心实验；12 页全文已存",
+      "supports": "接受代理与实际时间的区别、大树负结果",
+      "limits": "接受长度是代理目标；大树已有接受更长但不加速的实证反例。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "specpipe_v2",
+      "title": "specpipe_v2",
+      "url": "https://arxiv.org/pdf/2504.04104v2",
+      "evidence": "A",
+      "read_scope": "v1/v2 标题；v2 §3–4、附录 A；16 页全文已存",
+      "supports": "明确硬件推测借鉴、PP 条件与基线实现",
+      "limits": "v1 名 PipeDec、v2 名 SpecPipe；异构 pipeline 硬件与基线重实现限制横向比较。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "specdecpp_v3",
+      "title": "specdecpp_v3",
+      "url": "https://arxiv.org/pdf/2405.19715v3",
+      "evidence": "A",
+      "read_scope": "§3–5 与理论假设说明；22 页全文已存，未独立重证全部附录定理",
+      "supports": "MDP 阈值策略与训练目标",
+      "limits": "MDP 阈值定理依赖假设；未独立重证全部附录证明。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "bastion_v4",
+      "title": "bastion_v4",
+      "url": "https://arxiv.org/pdf/2605.29727v4",
+      "evidence": "A",
+      "read_scope": "§3.4、§4 设置、附录 A/G；30 页全文已存；未审计代码",
+      "supports": "2026 成本/收益控制、前提与漂移限制",
+      "limits": "2026 预印本；停止保证依赖收益凹/成本凸，MoE 不自动满足；主要 batch 1。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "aspire_v1",
+      "title": "aspire_v1",
+      "url": "https://arxiv.org/pdf/2609.17943v1",
+      "evidence": "A",
+      "read_scope": "§4.1–4.3、§5 设置；22 页全文已存；未审计代码",
+      "supports": "2026 异步请求级控制与接受率估计",
+      "limits": "2026 预印本；异步 self-speculation 与混合 batch 的收益不可直接移植到 CPU。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "eagle3_v3",
+      "title": "eagle3_v3",
+      "url": "https://arxiv.org/pdf/2503.01840v3",
+      "evidence": "A",
+      "read_scope": "§3–4；12 页全文已存",
+      "supports": "drafter 改善是独立因素",
+      "limits": "drafter 训练与目标特征本身改变接受率，控制器比较须固定 drafter。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "sglang_v2",
+      "title": "sglang_v2",
+      "url": "https://arxiv.org/pdf/2312.07104v2",
+      "evidence": "A",
+      "read_scope": "§3、附录 A.1；20 页全文已存",
+      "supports": "KV/prefix reuse 对象",
+      "limits": "只核对 prefix KV reuse 方法范围，未进行性能复现。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "jouppi1990",
+      "title": "jouppi1990",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15740-f15/www/papers/jouppi90.pdf",
+      "evidence": "P",
+      "read_scope": "§3–4 的原文；10 页全文已存",
+      "supports": "数据缓存与 stream prefetch 区别",
+      "limits": "只读原文相关 stream buffer 与缓存段落，用于概念边界，非当代处理器性能综述。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "tage2006",
+      "title": "tage2006",
+      "url": "https://jilp.org/vol8/v8paper1.pdf",
+      "evidence": "P",
+      "read_scope": "视觉核对原 PDF 第 1、4–7 页；23 页原文已存，其余未逐页视觉审阅",
+      "supports": "tag、几何历史、计数器更新与恢复",
+      "limits": "只视觉核对第 1、4-7 页；其余页面未逐页审阅；branch direction prediction 不是 data cache。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "sequoia_v3",
+      "title": "sequoia_v3",
+      "url": "https://arxiv.org/pdf/2402.12374v3",
+      "evidence": "A",
+      "read_scope": "§2–3 方法概览、§4.1、附录 B/G.5；27 页全文已存",
+      "supports": "硬件感知树预算先行工作",
+      "limits": "平均接受率向量与硬件成本需测量；跨设置迁移有限。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "eagle2_v2",
+      "title": "eagle2_v2",
+      "url": "https://arxiv.org/pdf/2406.16858v2",
+      "evidence": "A",
+      "read_scope": "§3–4、§5 评价和附录配置；12 页全文已存",
+      "supports": "上下文相关路径概率与动态树",
+      "limits": "改变的是上下文相关 draft 树；不得与纯长度控制收益混淆。"
+    },
+    {
+      "topic": "高效推理",
+      "id": "banditspec_generate_utils_snapshot",
+      "title": "banditspec_generate_utils_snapshot",
+      "url": "https://raw.githubusercontent.com/sail-sg/BanditSpec/4e6dd869a3a1677ca62ee8055713cec439f26ccc/generate_utils.py",
+      "evidence": "C",
+      "read_scope": "generate_utils.py 全文件及 inference_length.py、README 静态抽查；未运行 GPU benchmark",
+      "supports": "UCB 长度选择探索项、臂数量与 reward 实现差异",
+      "limits": ""
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "dagger2011",
+      "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+      "url": "https://proceedings.mlr.press/v15/ross11a.html",
+      "evidence": "P",
+      "read_scope": "Introduction; Section 3 and Algorithm 3.1; Theorems 3.1–3.4 and Section 4 opening. Full proof not independently reconstructed.",
+      "supports": "Policy-induced data distribution; data aggregation; conditional guarantees, not blanket deep-learning safety.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "uniad2023",
+      "title": "Planning-oriented Autonomous Driving",
+      "url": "https://arxiv.org/html/2212.10156v2",
+      "evidence": "P+C",
+      "read_scope": "Main architecture, Section 2.1–2.5, Section 3.1–3.2, Table 2; selected Appendix E/F implementation/metrics. Did not independently rederive all losses.",
+      "supports": "Joint tasks via queries; trajectory plus occupancy optimization; nuScenes open-loop evidence.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "transfuser2021",
+      "title": "Multi-Modal Fusion Transformer for End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/html/2104.09224v1",
+      "evidence": "P+C",
+      "read_scope": "Main Sections 1–4 including input/output, loss, controller, baseline protocol and Table1. Supplementary implementation not fully read.",
+      "supports": "RGB/LiDAR fusion to four waypoints; PID; CARLA0.9.10 Town05, ClearNoon; 3x3 runs. Distinguish PAMI extension.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "bench2drive2024",
+      "title": "Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving",
+      "url": "https://arxiv.org/html/2406.03877v3",
+      "evidence": "P+C",
+      "read_scope": "Main Sections 2–4, Table3/4, evaluation and data paragraphs; not every 44-scenario appendix description.",
+      "supports": "44x5 closed-loop tests; open-loop/closed-loop rank mismatch. Section4.2 UniAD vs VAD sentence conflicts with Table3; use UniAD vs TCP-traj comparison.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "autorally_il2018",
+      "title": "Agile Autonomous Driving using End-to-End Deep Imitation Learning",
+      "url": "https://arxiv.org/html/1709.07174v6",
+      "evidence": "P",
+      "read_scope": "Sections III–VI, setup, data collection, TableII, online/batch theory discussion; appendix MPC mathematical derivation not fully audited.",
+      "supports": "Real 1/5-scale AutoRally, image/wheel speed to steering/throttle; limited track; three trials; safety intervention selection.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "navsim2024",
+      "title": "NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking",
+      "url": "https://arxiv.org/html/2406.15349v2",
+      "evidence": "P+C",
+      "read_scope": "Sections1–3 including no ego feedback and PDMS. Main experimental claims read; not independent metric-code audit.",
+      "supports": "Single policy query, fixed 4s trajectory, LQR and bicycle model; nonreactive traffic; richer proxies than ADE.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "pseudo_sim2025",
+      "title": "Pseudo-Simulation for Autonomous Driving",
+      "url": "https://arxiv.org/html/2506.04218v2",
+      "evidence": "P+C",
+      "read_scope": "Sections1–3; scope of correlation experiment. Latest-v3 metadata verified but v3 body not substituted for v2.",
+      "supports": "Pre-rendered counterfactual observations, two-stage evaluation, IDM traffic; not sequential ego interaction; reconstruction supports evaluation.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "diffusiondrive2025",
+      "title": "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/html/2411.15139v3",
+      "evidence": "P",
+      "read_scope": "Sections3–4, Table2, NAVSIM setting; full supplementary not independently audited.",
+      "supports": "Anchored truncated diffusion; 2 steps; NAVSIM nonreactive metric and RTX4090 timing.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "road2025",
+      "title": "RoaD: Rollouts as Demonstrations for Closed-Loop Supervised Fine-Tuning of Autonomous Driving Policies",
+      "url": "https://arxiv.org/html/2512.01993v1",
+      "evidence": "A",
+      "read_scope": "Sections1–4, Algorithm1, Table3/4, limitations. Not a local replication.",
+      "supports": "Expert-guided rollout collection and BC targets; pretrained competent policy and valid expert-continuation assumptions.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "alpamayo2026",
+      "title": "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail",
+      "url": "https://arxiv.org/html/2511.00088v2",
+      "evidence": "A",
+      "read_scope": "Section3.2 representation/action decoder; Section6.1 protocol and6.8/Table14; SFT/RL architecture overview. Not whole CoC annotation audit.",
+      "supports": "Continuous control-sequence/flow trajectory; AlpaSim ego sensor feedback but recorded traffic; hardware-specific latency and limited road-test evidence.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "b2drobust2026",
+      "title": "Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations",
+      "url": "https://arxiv.org/html/2605.18059v1",
+      "evidence": "A",
+      "read_scope": "Sections3–4/Table3; Appendices A/B, selected C. Not independent execution.",
+      "supports": "Frozen-model sensor/state/FIFO-delay perturbations. Input-channel dependence means cross-model robustness is not architecture-normalized.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "驾驶学习",
+      "id": "beyond_bc_survey2025",
+      "title": "Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques",
+      "url": "https://research.nvidia.com/index.php/publication/2025-12_beyond-behavior-cloning-autonomous-driving-survey-closed-loop-training",
+      "evidence": "A",
+      "read_scope": "Introduction, SectionII formulation/open-vs-closed, taxonomy overview. Not an exhaustive reading of every cited method.",
+      "supports": "Three axes: action generation, environment response generation, objective. Survey classification not independent experimental evidence.",
+      "limits": "以所读版本和评价协议为限；未复现原模型"
+    },
+    {
+      "topic": "高效推理",
+      "id": "adaptix_v2",
+      "title": "ADED arXiv v2与附录",
+      "url": "https://arxiv.org/html/2407.12021v2",
+      "evidence": "A",
+      "read_scope": "正文及附录A–I；PDF/HTML保存",
+      "supports": "算法、主表、配置与说明",
+      "limits": "未取得完整正式AAAI PDF，不能宣称与正式版相同"
+    },
+    {
+      "topic": "高效推理",
+      "id": "adaptix_code",
+      "title": "Adaptix固定作者代码",
+      "url": "https://github.com/liuxukun2000/Adaptix/tree/241dad836fd71aa295a3967f7efe4cfcd2dd9609",
+      "evidence": "C/R",
+      "read_scope": "Rust检索与MCTS、Python验证/提交/评估；真实verifier函数级执行",
+      "supports": "实现路径、阶段计时、采样反例",
+      "limits": "未复现完整GPU模型和原论文大实验"
+    }
+  ]
+}

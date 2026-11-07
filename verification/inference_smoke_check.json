@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "verification_date": "2026-11-07",
+  "purpose": "Clean-environment smoke check of model entry point and saved-output accounting.",
+  "benchmark_recorded_date": "2026-11-06",
+  "date_note": "The preserved measured benchmark hard-codes 2026-11-06; verification_date records this new smoke run.",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "isolated_virtual_environment": true,
+    "core_packages_loaded_from_environment": true,
+    "pip_check": "passed",
+    "packages": {
+      "numpy": "2.4.6",
+      "torch": "2.12.0+cpu",
+      "transformers": "5.11.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.33.0",
+      "safetensors": "0.8.0"
+    },
+    "torch_source": "Official PyTorch CPU wheel index"
+  },
+  "protocol": {
+    "target_model": "HuggingFaceTB/SmolLM2-135M",
+    "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "weights_sha256": "80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1",
+    "device": "cpu",
+    "dtype": "float32",
+    "attention": "sdpa",
+    "batch": 1,
+    "max_new_tokens": 8
+  },
+  "saved_record_verification": {
+    "status": "passed",
+    "requests": 72,
+    "unique_prompts": 6,
+    "timing_repeats": 1,
+    "method_history_configurations": 12,
+    "output_tokens": 576,
+    "all_output_ids_equal_saved_references": true,
+    "all_committed_prefixes_and_first_rejections_valid": true,
+    "aggregate_fields_recomputed": 228,
+    "actual_decode_target_calls": 390,
+    "prefill_calls": 72,
+    "stop_coverage": {
+      "eos_token_id": 0,
+      "requests_with_eos": 0,
+      "eos_coverage_known": true,
+      "final_shortcut_rounds": 45,
+      "requests_reaching_length_limit": 72,
+      "max_new_tokens": 8
+    }
+  },
+  "greedy_references_checked_against_model_generate": true,
+  "benchmark_code_matches_archived_measurement": true,
+  "benchmark_sha256": "625749694ccb569babd7c2598c02993e84ac992b31b128bcfe0de580259e9ab5",
+  "limitations": "One 8-token smoke repetition checks execution and outputs. It makes no speed claim. The smoke produced no EOS case."
+}

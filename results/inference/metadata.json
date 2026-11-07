@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-06",
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "torch": "2.12.0+cpu",
+  "transformers": "5.11.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD",
+  "torch_threads": 4,
+  "interop_threads": 1,
+  "device": "cpu",
+  "dtype": "float32",
+  "attention": "sdpa",
+  "batch": 1,
+  "kv": "DynamicCache; crop rejected suffix; reset each request",
+  "sampling": "argmax, no penalties; stop EOS or max_new_tokens",
+  "model": "HuggingFaceTB/SmolLM2-135M",
+  "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+  "weights_sha256": "80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1",
+  "import_seconds": 25.759076799993636,
+  "model_load_seconds": 2.0428872000193223,
+  "repeats": 5,
+  "max_new_tokens": 64,
+  "prior_prompts": [
+    "The museum has an exhibition about ancient pottery. A visitor asked the guide",
+    "def square(x):\n    \"\"\"Return the square of x.\"\"\"\n",
+    "Item A: checked.\nItem B: checked.\nItem C:"
+  ],
+  "prompts": [
+    [
+      "prose",
+      "The library opens at nine each morning. Visitors come to read books, study, and use the computers. The librarian explained that"
+    ],
+    [
+      "science",
+      "A simple experiment compares two metal rods of the same length. One rod is heated while the other remains at room temperature. The result shows"
+    ],
+    [
+      "code",
+      "def factorial(n):\n    \"\"\"Return the factorial of a nonnegative integer.\"\"\"\n    if n == 0:\n        return 1\n    else:\n"
+    ],
+    [
+      "dialogue",
+      "Question: Why do leaves change color in autumn?\nAnswer:"
+    ],
+    [
+      "structured",
+      "Record 1: status=ready, action=continue.\nRecord 2: status=ready, action=continue.\nRecord 3: status=ready, action=continue.\nRecord 4:"
+    ],
+    [
+      "repetition",
+      "red blue green red blue green red blue green red blue green red blue green"
+    ]
+  ],
+  "time_definition": "warm_request_s: table initialization + prefill + decode; excludes tokenizer, imports, load, serialization. decode_s includes all Python control. Stages measured using perf_counter; no accelerator async on CPU.",
+  "prior_entries": 97
+}

@@ -1,0 +1,78 @@
+{
+  "experiment": "linear_lane_feedback_v1",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "coverage": [
+    "centered",
+    "narrow",
+    "broad"
+  ],
+  "label_noise_std_rad": [
+    0.0,
+    0.01
+  ],
+  "methods": [
+    "bc",
+    "augmentation",
+    "dagger",
+    "expert"
+  ],
+  "test_scenarios": [
+    "nominal",
+    "initial_offset",
+    "kick",
+    "delay_100ms",
+    "delay_300ms"
+  ],
+  "train_episodes": 30,
+  "train_steps": 200,
+  "dev_episodes": 12,
+  "test_episodes": 12,
+  "test_steps": 300,
+  "dt_s": 0.05,
+  "speed_mps": 8.0,
+  "wheelbase_m": 2.7,
+  "steering_limit_rad": 0.5,
+  "lane_half_width_m": 1.75,
+  "expert_lateral_gain": 0.25,
+  "expert_heading_gain": 0.8,
+  "feature_scales": [
+    1.0,
+    1.0,
+    0.2,
+    0.03
+  ],
+  "ridge_grid": [
+    0.0,
+    1e-06,
+    0.0001,
+    0.01
+  ],
+  "dagger_initial_episodes": 10,
+  "dagger_round_episodes": [
+    10,
+    10
+  ],
+  "dagger_teacher_probability": [
+    0.5,
+    0.0
+  ],
+  "augmentation_extra_labels": 4000,
+  "augmentation_uniform_half_width": [
+    0.8,
+    0.12
+  ],
+  "recovery_threshold": [
+    0.15,
+    0.03
+  ],
+  "recovery_consecutive_steps": 20,
+  "split_note": "Separate entire episodes and disjoint seed namespaces for train/dev/test; no test tuning.",
+  "label_note": "Oracle controls are clean; demonstration target noise is added only for training labels.",
+  "failure_note": "Crossing |lateral error|>1.75 m is recorded. Mathematical rollouts continue without reset; this is not a physical crash simulation."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "verification_date": "2026-11-06",
+  "procedure": "Fresh full training and evaluation run followed by saved-array analysis and original/reproduced result comparison.",
+  "original_environment": {
+    "python": "3.12.2",
+    "numpy": "2.4.6"
+  },
+  "reproduction_environment": {
+    "python": "3.12.14",
+    "numpy": "2.4.6"
+  },
+  "tolerance": {
+    "absolute": 1e-12,
+    "relative": 1e-10
+  },
+  "comparisons": {
+    "summary.csv": {
+      "numeric_values_compared": 960,
+      "max_absolute_error": 0.0,
+      "outside_tolerance": 0,
+      "categorical_mismatches": 0,
+      "rows": 120
+    },
+    "trajectory_metrics.csv": {
+      "numeric_values_compared": 86332,
+      "max_absolute_error": 0.0,
+      "outside_tolerance": 0,
+      "categorical_mismatches": 0,
+      "rows": 7200
+    },
+    "models.json": {
+      "numeric_values_compared": 2340,
+      "max_absolute_error": 0.0,
+      "outside_tolerance": 0,
+      "categorical_mismatches": 0,
+      "models": 120
+    }
+  },
+  "meaningful_differences": [],
+  "fresh_saved_array_audit": {
+    "status": "PASS",
+    "rows": 7200,
+    "summary_rows": 120,
+    "test_npz_files": 600,
+    "training_npz_files": 90,
+    "metric_values_recomputed": 72000,
+    "distinct_environment_batches": 25,
+    "distinct_test_episodes": 300
+  },
+  "source_sha256": {
+    "run_feedback.py": "31638cf33236bd957ef8e3f0a1da0f25f472897690128ad4fbb58e39a68e0c71",
+    "analyze_feedback.py": "233804a88d2ac76344c49ed139e57cff23d0458781d659246204cc303dd94061"
+  },
+  "source_hash_matches_original_manifest": true,
+  "source_hash_matches_reproduction_manifest": true,
+  "original_result_sha256": {
+    "summary.csv": "7b5de75f491709b37ad3e70d660251e7863cc9f3472687678cdc3732e4546207",
+    "trajectory_metrics.csv": "7407e2d1d155bb746690bba8f477c137504d7b7eacc40e4c106cab3c007c41a8",
+    "models.json": "8ed7296ae15b1e1b39da23c2435ccfdd8e05828dc00a56c62bbcd571214a3ca5"
+  },
+  "reproduced_result_sha256": {
+    "summary.csv": "7b5de75f491709b37ad3e70d660251e7863cc9f3472687678cdc3732e4546207",
+    "trajectory_metrics.csv": "7407e2d1d155bb746690bba8f477c137504d7b7eacc40e4c106cab3c007c41a8",
+    "models.json": "8ed7296ae15b1e1b39da23c2435ccfdd8e05828dc00a56c62bbcd571214a3ca5"
+  },
+  "scope": "Low-dimensional synthetic feedback experiment. This verification adds no inference-speed, visual-driving, or vehicle-safety claim."
+}

@@ -1,0 +1,55 @@
+{
+  "code_commit": "241dad836fd71aa295a3967f7efe4cfcd2dd9609",
+  "torch": "2.12.0+cpu",
+  "seed": 20261106,
+  "function": "evaluate_posterior -> get_nucleus_posterior_mask",
+  "fallback_entry": "llm_judge/gen_model_answer_aded.py aded_forward passes top_p and temperature",
+  "results": [
+    {
+      "candidate_order": [
+        0,
+        1
+      ],
+      "n": 30000,
+      "counts": [
+        27889,
+        2111
+      ],
+      "empirical_pA": 0.9296333333333333,
+      "target_pA": 0.8,
+      "derived_pA": 0.928,
+      "standard_error": 0.00149238064849421,
+      "accepted_counts": [
+        24076,
+        1204
+      ],
+      "rejected_both": 4720
+    },
+    {
+      "candidate_order": [
+        1,
+        0
+      ],
+      "n": 30000,
+      "counts": [
+        23136,
+        6864
+      ],
+      "empirical_pA": 0.7712,
+      "target_pA": 0.8,
+      "derived_pA": 0.768,
+      "standard_error": 0.0024370473938764505,
+      "accepted_counts": [
+        19213,
+        5931
+      ],
+      "rejected_both": 4856
+    }
+  ],
+  "limitation": "A constructed two-branch case exercising actual published verifier; not full-model corpus distribution test and not proof about every version.",
+  "wrapper_provenance": {
+    "original_audit_sha256": "dbf6a3a26ab05e61f85cd0fed898b6ee75aefdd760dd06142d2e40deb68cbcee",
+    "upstream_utility_sha256": "590910836297406869921120db2e06aee3f100bc1a85367a3bcf69fce90bb012",
+    "execution": "Unchanged audit and utility executed in an isolated temporary directory."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "requests": 360,
+  "all_output_ids_equal": true,
+  "all_commit_counts_conserved": true,
+  "all_draft_accounting_conserved": true,
+  "all_first_rejections_mismatch_reference": true,
+  "requests_with_eos": 0,
+  "output_tokens": 23040,
+  "actual_decode_target_calls": 14975,
+  "benchmark_sha256": "625749694ccb569babd7c2598c02993e84ac992b31b128bcfe0de580259e9ab5",
+  "aggregate_fields_recomputed": 228
+}

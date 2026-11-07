@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "The museum has an exhibition about ancient pottery. A visitor asked the guide",
+    "output_ids": [
+      288,
+      3556,
+      260,
+      1463,
+      282,
+      18720,
+      30,
+      378,
+      3948,
+      1137,
+      338,
+      18720,
+      436,
+      1135,
+      411,
+      1369,
+      28,
+      284,
+      338,
+      260,
+      808,
+      18720,
+      436,
+      1135,
+      281,
+      3275,
+      30,
+      378,
+      3948,
+      1137,
+      338,
+      260,
+      808,
+      18720,
+      436,
+      1135,
+      281,
+      3275,
+      28,
+      284,
+      338,
+      260,
+      808,
+      18720,
+      436,
+      1135,
+      281,
+      3275,
+      30,
+      378,
+      3948,
+      1137,
+      338,
+      260,
+      808,
+      18720,
+      436,
+      1135,
+      281,
+      3275,
+      28,
+      284,
+      338,
+      260
+    ],
+    "output_text": " to explain the history of pottery. The guide said that pottery was made by hand, and that the first pottery was made in China. The guide said that the first pottery was made in China, and that the first pottery was made in China. The guide said that the first pottery was made in China, and that the",
+    "setup_s": 5.00003807246685e-07,
+    "prefill_s": 0.11623630000394769,
+    "decode_s": 5.480872400017688,
+    "warm_request_s": 5.5971763000125065,
+    "rounds": [
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          288
+        ],
+        "draft_s": 0.0003764999855775386,
+        "verify_s": 0.09018540001125075,
+        "commit_s": 0.0006569999968633056,
+        "rollback_s": 7.259999983943999e-05,
+        "round_s": 0.09132889998727478,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3556
+        ],
+        "draft_s": 0.0007810999813955277,
+        "verify_s": 0.08221189997857437,
+        "commit_s": 9.539999882690609e-05,
+        "rollback_s": 5.23999915458262e-05,
+        "round_s": 0.0831692999927327,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.00032920000376179814,
+        "verify_s": 0.0821826999890618,
+        "commit_s": 0.00023589999182149768,
+        "rollback_s": 5.420000525191426e-05,
+        "round_s": 0.08280929998727515,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1463
+        ],
+        "draft_s": 0.00033340000663883984,
+        "verify_s": 0.07228200000827201,
+        "commit_s": 0.0001066999975591898,
+        "rollback_s": 5.979998968541622e-05,
+        "round_s": 0.0727891999995336,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          282
+        ],
+        "draft_s": 0.0003415000101085752,
+        "verify_s": 0.07404939999105409,
+        "commit_s": 0.00010340000153519213,
+        "rollback_s": 4.7299981815740466e-05,
+        "round_s": 0.07455109999864362,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          18720
+        ],
+        "draft_s": 0.0002851999888662249,
+        "verify_s": 0.06844010000349954,
+        "commit_s": 9.529999806545675e-05,
+        "rollback_s": 5.440000677481294e-05,
+        "round_s": 0.06888209999306127,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.00034649998997338116,
+        "verify_s": 0.07995459999074228,
+        "commit_s": 0.00010320000001229346,
+        "rollback_s": 5.299999611452222e-05,
+        "round_s": 0.08046580001246184,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          378
+        ],
+        "draft_s": 0.00035200000274926424,
+        "verify_s": 0.09725200000684708,
+        "commit_s": 0.00011749999248422682,
+        "rollback_s": 6.409999332390726e-05,
+        "round_s": 0.0977965000201948,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3948
+        ],
+        "draft_s": 0.0003949000092688948,
+        "verify_s": 0.09175320001668297,
+        "commit_s": 0.00011069999891333282,
+        "rollback_s": 5.9200014220550656e-05,
+        "round_s": 0.09232779999729246,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1137
+        ],
+        "draft_s": 0.00033310000435449183,
+        "verify_s": 0.0908583999844268,
+        "commit_s": 9.270000737160444e-05,
+        "rollback_s": 5.289999535307288e-05,
+        "round_s": 0.09134410001570359,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          338
+        ],
+        "draft_s": 0.00033650000113993883,
+        "verify_s": 0.08529319998342544,
+        "commit_s": 0.0001787999935913831,
+        "rollback_s": 6.540000322274864e-05,
+        "round_s": 0.08588860000600107,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          18720
+        ],
+        "draft_s": 0.00045419999514706433,
+        "verify_s": 0.07748300000093877,
+        "commit_s": 9.849999332800508e-05,
+        "rollback_s": 5.649999366141856e-05,
+        "round_s": 0.07810130002326332,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          436
+        ],
+        "draft_s": 0.00033889999031089246,
+        "verify_s": 0.09163179999450222,
+        "commit_s": 9.280000813305378e-05,
+        "rollback_s": 5.089998012408614e-05,
+        "round_s": 0.09212230000412092,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1135
+        ],
+        "draft_s": 0.0003482000029180199,
+        "verify_s": 0.09370719999424182,
+        "commit_s": 0.00015979999443516135,
+        "rollback_s": 5.649999366141856e-05,
+        "round_s": 0.09427940001478419,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          411
+        ],
+        "draft_s": 0.0003315999929327518,
+        "verify_s": 0.09318060000077821,
+        "commit_s": 0.00010179998935200274,
+        "rollback_s": 5.49999822396785e-05,
+        "round_s": 0.09367609999026172,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1369
+        ],
+        "draft_s": 0.0006046000053174794,
+        "verify_s": 0.08586140000261366,
+        "commit_s": 0.0001650999765843153,
+        "rollback_s": 5.3800002206116915e-05,
+        "round_s": 0.0866941999993287,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          28
+        ],
+        "draft_s": 0.0003341999836266041,
+        "verify_s": 0.08498079999117181,
+        "commit_s": 8.270001853816211e-05,
+        "rollback_s": 5.859998054802418e-05,
+        "round_s": 0.08546329999808222,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          284
+        ],
+        "draft_s": 0.0003510999958962202,
+        "verify_s": 0.09209319998626597,
+        "commit_s": 0.00014200000441633165,
+        "rollback_s": 5.6800025049597025e-05,
+        "round_s": 0.09265570002025925,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          338
+        ],
+        "draft_s": 0.0003341000119689852,
+        "verify_s": 0.08855270000640303,
+        "commit_s": 0.0002308000111952424,
+        "rollback_s": 5.70000265724957e-05,
+        "round_s": 0.08918199999607168,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.00033359997905790806,
+        "verify_s": 0.0850151999911759,
+        "commit_s": 0.00010080001084133983,
+        "rollback_s": 5.529998452402651e-05,
+        "round_s": 0.0855122999928426,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          808
+        ],
+        "draft_s": 0.0003315999929327518,
+        "verify_s": 0.0963937999913469,
+        "commit_s": 0.00016150000737980008,
+        "rollback_s": 5.329999839887023e-05,
+        "round_s": 0.09694720001425594,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          18720
+        ],
+        "draft_s": 0.00033650000113993883,
+        "verify_s": 0.0908128000155557,
+        "commit_s": 0.00024029999622143805,
+        "rollback_s": 4.7699984861537814e-05,
+        "round_s": 0.0914455000020098,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          436
+        ],
+        "draft_s": 0.0002989000058732927,
+        "verify_s": 0.09091490000719205,
+        "commit_s": 0.00011739999172277749,
+        "rollback_s": 5.2799994591623545e-05,
+        "round_s": 0.09139519999735057,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1135
+        ],
+        "draft_s": 0.000291000003926456,
+        "verify_s": 0.10199179998016916,
+        "commit_s": 0.00025690000620670617,
+        "rollback_s": 5.8200006606057286e-05,
+        "round_s": 0.10260559999733232,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          281
+        ],
+        "draft_s": 0.0005025999853387475,
+        "verify_s": 0.10485949998837896,
+        "commit_s": 0.00013760000001639128,
+        "rollback_s": 9.139999747276306e-05,
+        "round_s": 0.10561589998542331,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3275
+        ],
+        "draft_s": 0.000516800006153062,
+        "verify_s": 0.11785560002317652,
+        "commit_s": 0.00015440001152455807,
+        "rollback_s": 4.8999994760379195e-05,
+        "round_s": 0.11858650000067428,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.00031460000900551677,
+        "verify_s": 0.10033349998411722,
+        "commit_s": 9.99000039882958e-05,
+        "rollback_s": 5.77000027988106e-05,
+        "round_s": 0.10081290002563037,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          378
+        ],
+        "draft_s": 0.00033049998455680907,
+        "verify_s": 0.09539740000036545,
+        "commit_s": 0.00019269998301751912,
+        "rollback_s": 7.06000137142837e-05,
+        "round_s": 0.0959984999790322,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3948
+        ],
+        "draft_s": 0.00035650000791065395,
+        "verify_s": 0.08339330001035705,
+        "commit_s": 0.0001795999996829778,
+        "rollback_s": 4.850002005696297e-05,
+        "round_s": 0.08398689999012277,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1137
+        ],
+        "draft_s": 0.00034840000444091856,
+        "verify_s": 0.07712159998482093,
+        "commit_s": 0.00010050000855699182,
+        "rollback_s": 5.6599994422867894e-05,
+        "round_s": 0.07764190001762472,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          338
+        ],
+        "draft_s": 0.00035149999894201756,
+        "verify_s": 0.10977209999691695,
+        "commit_s": 0.00014869999722577631,
+        "rollback_s": 4.5599997974932194e-05,
+        "round_s": 0.11032620002515614,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.00029490000451914966,
+        "verify_s": 0.10920629999600351,
+        "commit_s": 0.0001260999997612089,
+        "rollback_s": 5.959998816251755e-05,
+        "round_s": 0.10969449998810887,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          808
+        ],
+        "draft_s": 0.0003381000133231282,
+        "verify_s": 0.08944579999661073,
+        "commit_s": 9.200000204145908e-05,
+        "rollback_s": 4.640000406652689e-05,
+        "round_s": 0.08992950001265854,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          18720
+        ],
+        "draft_s": 0.0003053999971598387,
+        "verify_s": 0.08417759998701513,
+        "commit_s": 9.700001101009548e-05,
+        "rollback_s": 5.220001912675798e-05,
+        "round_s": 0.08463900000788271,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          436
+        ],
+        "draft_s": 0.0004545999981928617,
+        "verify_s": 0.079468200012343,
+        "commit_s": 9.850002243183553e-05,
+        "rollback_s": 6.710001616738737e-05,
+        "round_s": 0.0800976000027731,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1135
+        ],
+        "draft_s": 0.0003480000013951212,
+        "verify_s": 0.08297270000912249,
+        "commit_s": 0.00022339998395182192,
+        "rollback_s": 4.549999721348286e-05,
+        "round_s": 0.08360070001799613,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          281
+        ],
+        "draft_s": 0.0002883999841287732,
+        "verify_s": 0.07961559999966994,
+        "commit_s": 0.00013959998614154756,
+        "rollback_s": 5.980001878924668e-05,
+        "round_s": 0.0801105999853462,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3275
+        ],
+        "draft_s": 0.00035669998032972217,
+        "verify_s": 0.07670159998815507,
+        "commit_s": 0.00013649999164044857,
+        "rollback_s": 6.19000056758523e-05,
+        "round_s": 0.0772657000052277,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          28
+        ],
+        "draft_s": 0.0004521000082604587,
+        "verify_s": 0.07974030001787469,
+        "commit_s": 0.00010219999239780009,
+        "rollback_s": 5.259999306872487e-05,
+        "round_s": 0.0803555000165943,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          284
+        ],
+        "draft_s": 0.00032969997846521437,
+        "verify_s": 0.08334449998801574,
+        "commit_s": 0.00011739999172277749,
+        "rollback_s": 5.810000584460795e-05,
+        "round_s": 0.0838577999966219,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          338
+        ],
+        "draft_s": 0.0004042999935336411,
+        "verify_s": 0.07695950000197627,
+        "commit_s": 0.00013079997734166682,
+        "rollback_s": 7.340000593103468e-05,
+        "round_s": 0.07757799999671988,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.0006328999879769981,
+        "verify_s": 0.07426730002043769,
+        "commit_s": 0.00022310001077130437,
+        "rollback_s": 8.259998867288232e-05,
+        "round_s": 0.0752177000103984,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          808
+        ],
+        "draft_s": 0.00045590000809170306,
+        "verify_s": 0.08065290001104586,
+        "commit_s": 0.00010050000855699182,
+        "rollback_s": 6.150000263005495e-05,
+        "round_s": 0.08128080001915805,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          18720
+        ],
+        "draft_s": 0.0003411000070627779,
+        "verify_s": 0.07683609999367036,
+        "commit_s": 0.0001393999846186489,
+        "rollback_s": 8.120000711642206e-05,
+        "round_s": 0.07740940002258867,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          436
+        ],
+        "draft_s": 0.0003986000083386898,
+        "verify_s": 0.08641250000800937,
+        "commit_s": 0.00019249998149462044,
+        "rollback_s": 6.399999256245792e-05,
+        "round_s": 0.08707799998228438,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1135
+        ],
+        "draft_s": 0.000377499993192032,
+        "verify_s": 0.081454200000735,
+        "commit_s": 9.059999138116837e-05,
+        "rollback_s": 6.170000415295362e-05,
+        "round_s": 0.08199410000815988,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          281
+        ],
+        "draft_s": 0.0005524999869521707,
+        "verify_s": 0.07836740001221187,
+        "commit_s": 8.710002293810248e-05,
+        "rollback_s": 4.39999857917428e-05,
+        "round_s": 0.07908540000789799,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3275
+        ],
+        "draft_s": 0.00035859999479725957,
+        "verify_s": 0.08981020000646822,
+        "commit_s": 9.789998875930905e-05,
+        "rollback_s": 5.129998316988349e-05,
+        "round_s": 0.09033269999781623,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003307000151835382,
+        "verify_s": 0.07875329998205416,
+        "commit_s": 0.00023249999503605068,
+        "rollback_s": 8.50000069476664e-05,
+        "round_s": 0.0794093000004068,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          378
+        ],
+        "draft_s": 0.00043509999522939324,
+        "verify_s": 0.07970400000340305,
+        "commit_s": 9.660000796429813e-05,
+        "rollback_s": 5.2799994591623545e-05,
+        "round_s": 0.08030120001058094,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3948
+        ],
+        "draft_s": 0.00033680000342428684,
+        "verify_s": 0.08157219999702647,
+        "commit_s": 0.0001112000027205795,
+        "rollback_s": 5.360000068321824e-05,
+        "round_s": 0.08208200000808574,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1137
+        ],
+        "draft_s": 0.0003334999782964587,
+        "verify_s": 0.08275030000368133,
+        "commit_s": 8.969998452812433e-05,
+        "rollback_s": 5.3800002206116915e-05,
+        "round_s": 0.083234599995194,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          338
+        ],
+        "draft_s": 0.0003367000026628375,
+        "verify_s": 0.08288899998296984,
+        "commit_s": 0.0001396999869029969,
+        "rollback_s": 5.470000905916095e-05,
+        "round_s": 0.08342810001340695,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.0003339999821037054,
+        "verify_s": 0.07790150001528673,
+        "commit_s": 9.460002183914185e-05,
+        "rollback_s": 5.8399979025125504e-05,
+        "round_s": 0.0783952999918256,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          808
+        ],
+        "draft_s": 0.0006652000010944903,
+        "verify_s": 0.07197390001965687,
+        "commit_s": 9.48999950196594e-05,
+        "rollback_s": 4.439998883754015e-05,
+        "round_s": 0.07279060001019388,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          18720
+        ],
+        "draft_s": 0.00031380000291392207,
+        "verify_s": 0.07673989998875186,
+        "commit_s": 0.00010569998994469643,
+        "rollback_s": 5.15999854542315e-05,
+        "round_s": 0.07721950000268407,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          436
+        ],
+        "draft_s": 0.00034329999471083283,
+        "verify_s": 0.08030599998892285,
+        "commit_s": 0.0001640999980736524,
+        "rollback_s": 5.599998985417187e-05,
+        "round_s": 0.08088219998171553,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1135
+        ],
+        "draft_s": 0.0003583999932743609,
+        "verify_s": 0.0875559999840334,
+        "commit_s": 0.00012149999383836985,
+        "rollback_s": 9.06999921426177e-05,
+        "round_s": 0.0881367000110913,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          281
+        ],
+        "draft_s": 0.000357400014763698,
+        "verify_s": 0.09571349999168888,
+        "commit_s": 0.00010570001904852688,
+        "rollback_s": 5.8900011936202645e-05,
+        "round_s": 0.0962444000178948,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          3275
+        ],
+        "draft_s": 0.0003671999729704112,
+        "verify_s": 0.08989779997500591,
+        "commit_s": 9.710001177154481e-05,
+        "rollback_s": 5.400000372901559e-05,
+        "round_s": 0.09042549997684546,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          28
+        ],
+        "draft_s": 0.0003471999953035265,
+        "verify_s": 0.08080830000108108,
+        "commit_s": 0.0002038000093307346,
+        "rollback_s": 4.5599997974932194e-05,
+        "round_s": 0.0814173000107985,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          284
+        ],
+        "draft_s": 0.0003316999936942011,
+        "verify_s": 0.09708490001503378,
+        "commit_s": 0.00010160001693293452,
+        "rollback_s": 5.629999213851988e-05,
+        "round_s": 0.09758420000434853,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          338
+        ],
+        "draft_s": 0.00034329999471083283,
+        "verify_s": 0.09192389997770078,
+        "commit_s": 0.00028569999267347157,
+        "rollback_s": 0.00011890000314451754,
+        "round_s": 0.09268150001298636,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.0003806000167969614,
+        "verify_s": 0.0,
+        "commit_s": 1.2499978765845299e-05,
+        "rollback_s": 0.0,
+        "round_s": 0.00039450000622309744,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": true
+      }
+    ]
+  },
+  {
+    "prompt": "def square(x):\n    \"\"\"Return the square of x.\"\"\"\n",
+    "output_ids": [
+      198,
+      1604,
+      5222,
+      79,
+      1714,
+      79,
+      104,
+      24,
+      104,
+      727,
+      472,
+      1620,
+      14362,
+      260,
+      5222,
+      282,
+      1792,
+      7996,
+      198,
+      198,
+      1604,
+      5222,
+      79,
+      1714,
+      79,
+      104,
+      24,
+      104,
+      28,
+      329,
+      727,
+      472,
+      1620,
+      14362,
+      260,
+      5222,
+      282,
+      1792,
+      284,
+      329,
+      7996,
+      198,
+      198,
+      1604,
+      5222,
+      79,
+      1714,
+      79,
+      104,
+      24,
+      104,
+      28,
+      329,
+      28,
+      1892,
+      727,
+      472,
+      1620,
+      14362,
+      260,
+      5222,
+      282,
+      1792,
+      284
+    ],
+    "output_text": "\ndef square_of_x(x):\n    \"\"\"Return the square of x.\"\"\"\n\ndef square_of_x(x, y):\n    \"\"\"Return the square of x and y.\"\"\"\n\ndef square_of_x(x, y, z):\n    \"\"\"Return the square of x and",
+    "setup_s": 5.00003807246685e-07,
+    "prefill_s": 0.12711070000659674,
+    "decode_s": 5.74260269998922,
+    "warm_request_s": 5.8697724000085145,
+    "rounds": [
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0003640000068116933,
+        "verify_s": 0.08073299998068251,
+        "commit_s": 9.509999654255807e-05,
+        "rollback_s": 4.4899992644786835e-05,
+        "round_s": 0.08127070000045933,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1604
+        ],
+        "draft_s": 0.0003205000248271972,
+        "verify_s": 0.07714449998456985,
+        "commit_s": 0.00010189999011345208,
+        "rollback_s": 5.7600002037361264e-05,
+        "round_s": 0.07763410001643933,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          5222
+        ],
+        "draft_s": 0.0003510999958962202,
+        "verify_s": 0.07833400001982227,
+        "commit_s": 0.00010870001278817654,
+        "rollback_s": 0.00023189999046735466,
+        "round_s": 0.07903480000095442,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          79
+        ],
+        "draft_s": 0.0009530000097583979,
+        "verify_s": 0.09432810000726022,
+        "commit_s": 0.00016949998098425567,
+        "rollback_s": 5.7600002037361264e-05,
+        "round_s": 0.09553360001882538,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1714
+        ],
+        "draft_s": 0.00037039999733678997,
+        "verify_s": 0.09304310000152327,
+        "commit_s": 0.00010599999222904444,
+        "rollback_s": 5.649999366141856e-05,
+        "round_s": 0.0935858000011649,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          79
+        ],
+        "draft_s": 0.0003299000090919435,
+        "verify_s": 0.07896450001862831,
+        "commit_s": 0.0001804000057745725,
+        "rollback_s": 5.830000736750662e-05,
+        "round_s": 0.0795405000098981,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          104
+        ],
+        "draft_s": 0.0003595000016503036,
+        "verify_s": 0.07481980000738986,
+        "commit_s": 9.700001101009548e-05,
+        "rollback_s": 5.319999763742089e-05,
+        "round_s": 0.07533910000347532,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          24
+        ],
+        "draft_s": 0.0003380000125616789,
+        "verify_s": 0.09169529998325743,
+        "commit_s": 0.00039259999175556004,
+        "rollback_s": 8.040000102482736e-05,
+        "round_s": 0.09251489999587648,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          104
+        ],
+        "draft_s": 0.0003721000102814287,
+        "verify_s": 0.09667240001726896,
+        "commit_s": 0.00011719999019987881,
+        "rollback_s": 7.320000440813601e-05,
+        "round_s": 0.0972438000026159,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          727
+        ],
+        "draft_s": 0.0006984000210650265,
+        "verify_s": 0.10863789997529238,
+        "commit_s": 0.00018579998868517578,
+        "rollback_s": 6.439999560825527e-05,
+        "round_s": 0.10959800001000986,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          472
+        ],
+        "draft_s": 0.00032419999479316175,
+        "verify_s": 0.08327160001499578,
+        "commit_s": 0.00012939999578520656,
+        "rollback_s": 7.619999814778566e-05,
+        "round_s": 0.08381109999027103,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1620
+        ],
+        "draft_s": 0.0005495999939739704,
+        "verify_s": 0.08632589998887852,
+        "commit_s": 0.00016419999883510172,
+        "rollback_s": 5.679999594576657e-05,
+        "round_s": 0.08710780000546947,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          14362
+        ],
+        "draft_s": 0.00031640002271160483,
+        "verify_s": 0.0909512999933213,
+        "commit_s": 0.00010209999163635075,
+        "rollback_s": 5.8200006606057286e-05,
+        "round_s": 0.09144030002062209,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.00035349998506717384,
+        "verify_s": 0.09333829997922294,
+        "commit_s": 0.00010530001600272954,
+        "rollback_s": 5.4500007536262274e-05,
+        "round_s": 0.09386049999739043,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          5222
+        ],
+        "draft_s": 0.0003966999938711524,
+        "verify_s": 0.08417350001400337,
+        "commit_s": 0.00010539998766034842,
+        "rollback_s": 5.979998968541622e-05,
+        "round_s": 0.08475259999977425,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          282
+        ],
+        "draft_s": 0.00033320000511594117,
+        "verify_s": 0.07629280001856387,
+        "commit_s": 0.00019449999672360718,
+        "rollback_s": 7.929999264888465e-05,
+        "round_s": 0.07690990000264719,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1792
+        ],
+        "draft_s": 0.0003664999967440963,
+        "verify_s": 0.08537250000517815,
+        "commit_s": 0.00017409998690709472,
+        "rollback_s": 4.529999569058418e-05,
+        "round_s": 0.08597139999619685,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          7996
+        ],
+        "draft_s": 0.000285100017208606,
+        "verify_s": 0.09645880002062768,
+        "commit_s": 0.00012030001380480826,
+        "rollback_s": 8.420000085607171e-05,
+        "round_s": 0.09695589999319054,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0003662999952211976,
+        "verify_s": 0.08849140000529587,
+        "commit_s": 0.00010689999908208847,
+        "rollback_s": 5.6599994422867894e-05,
+        "round_s": 0.08902980000129901,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0003816999960690737,
+        "verify_s": 0.0873493000108283,
+        "commit_s": 0.0002499000111129135,
+        "rollback_s": 9.359998512081802e-05,
+        "round_s": 0.08809289999771863,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1604
+        ],
+        "draft_s": 0.0005036999937146902,
+        "verify_s": 0.09306370001286268,
+        "commit_s": 0.00023659999715164304,
+        "rollback_s": 5.520001286640763e-05,
+        "round_s": 0.09386950000771321,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          5222
+        ],
+        "draft_s": 0.0003341000119689852,
+        "verify_s": 0.09048640000401065,
+        "commit_s": 0.00010239999392069876,
+        "rollback_s": 5.750000127591193e-05,
+        "round_s": 0.09098810001160018,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          79
+        ],
+        "draft_s": 0.00033939999411813915,
+        "verify_s": 0.087878999998793,
+        "commit_s": 0.00012589999823831022,
+        "rollback_s": 9.180000051856041e-05,
+        "round_s": 0.0884444999974221,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1714
+        ],
+        "draft_s": 0.0004628000024240464,
+        "verify_s": 0.09853980000480078,
+        "commit_s": 9.889999637380242e-05,
+        "rollback_s": 5.6199991377070546e-05,
+        "round_s": 0.09916660000453703,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          79
+        ],
+        "draft_s": 0.0003426999901421368,
+        "verify_s": 0.08509279999998398,
+        "commit_s": 9.089999366551638e-05,
+        "rollback_s": 4.47999918833375e-05,
+        "round_s": 0.08557880000444129,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          104
+        ],
+        "draft_s": 0.0002902999985963106,
+        "verify_s": 0.10018130001844838,
+        "commit_s": 9.739998495206237e-05,
+        "rollback_s": 5.5500015150755644e-05,
+        "round_s": 0.10063410000293516,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          24
+        ],
+        "draft_s": 0.0003347999881953001,
+        "verify_s": 0.08947469998383895,
+        "commit_s": 0.0001480999926570803,
+        "rollback_s": 5.440000677481294e-05,
+        "round_s": 0.0900203000055626,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          104
+        ],
+        "draft_s": 0.0003336000081617385,
+        "verify_s": 0.08884569999645464,
+        "commit_s": 0.00015209999401122332,
+        "rollback_s": 9.839999256655574e-05,
+        "round_s": 0.08943900000303984,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          28
+        ],
+        "draft_s": 0.0010554000036790967,
+        "verify_s": 0.10644679999677464,
+        "commit_s": 0.00028589999419637024,
+        "rollback_s": 0.00014980000560171902,
+        "round_s": 0.10795790000702254,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          329
+        ],
+        "draft_s": 0.0011270999966654927,
+        "verify_s": 0.09873860000516288,
+        "commit_s": 0.00010909998673014343,
+        "rollback_s": 5.8200006606057286e-05,
+        "round_s": 0.10004760001902469,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          727
+        ],
+        "draft_s": 0.00033409998286515474,
+        "verify_s": 0.08766309998463839,
+        "commit_s": 0.00012290000449866056,
+        "rollback_s": 6.829999620094895e-05,
+        "round_s": 0.08819640000001527,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          472
+        ],
+        "draft_s": 0.0004988999862689525,
+        "verify_s": 0.08786850000615232,
+        "commit_s": 0.00010649999603629112,
+        "rollback_s": 5.830000736750662e-05,
+        "round_s": 0.0885405000008177,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1620
+        ],
+        "draft_s": 0.0003607999824453145,
+        "verify_s": 0.08583070000167936,
+        "commit_s": 0.000245599978370592,
+        "rollback_s": 6.0399994254112244e-05,
+        "round_s": 0.08651009999448434,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          14362
+        ],
+        "draft_s": 0.0003541999903973192,
+        "verify_s": 0.0805697999894619,
+        "commit_s": 0.00010579999070614576,
+        "rollback_s": 6.230000872164965e-05,
+        "round_s": 0.08110070001566783,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.0006423000013455749,
+        "verify_s": 0.09768589999293908,
+        "commit_s": 0.0005325000092852861,
+        "rollback_s": 0.00010159998782910407,
+        "round_s": 0.0989871000056155,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          5222
+        ],
+        "draft_s": 0.0007201999833341688,
+        "verify_s": 0.09685889998218045,
+        "commit_s": 9.180000051856041e-05,
+        "rollback_s": 5.3499999921768904e-05,
+        "round_s": 0.09774890000699088,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          282
+        ],
+        "draft_s": 0.0003467000206001103,
+        "verify_s": 0.09405640000477433,
+        "commit_s": 0.0001942999952007085,
+        "rollback_s": 7.189999450929463e-05,
+        "round_s": 0.09467799999401905,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1792
+        ],
+        "draft_s": 0.00034550001146271825,
+        "verify_s": 0.08227009998518042,
+        "commit_s": 0.00011449999874457717,
+        "rollback_s": 6.550000398419797e-05,
+        "round_s": 0.08280810000724159,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          284
+        ],
+        "draft_s": 0.0003429999924264848,
+        "verify_s": 0.09347150000394322,
+        "commit_s": 0.0002227999793831259,
+        "rollback_s": 9.560000034980476e-05,
+        "round_s": 0.09414289999403991,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          329
+        ],
+        "draft_s": 0.00036429997999221087,
+        "verify_s": 0.09196869999868795,
+        "commit_s": 8.910000906325877e-05,
+        "rollback_s": 5.0300004659220576e-05,
+        "round_s": 0.09248239998123609,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          7996
+        ],
+        "draft_s": 0.00029749999521300197,
+        "verify_s": 0.09857160001411103,
+        "commit_s": 0.00017529999604448676,
+        "rollback_s": 5.91999851167202e-05,
+        "round_s": 0.09911159999319352,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0006752000190317631,
+        "verify_s": 0.13199510000413284,
+        "commit_s": 9.90999978967011e-05,
+        "rollback_s": 5.989999044686556e-05,
+        "round_s": 0.132853699993575,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00029520000680349767,
+        "verify_s": 0.10375810001278296,
+        "commit_s": 0.0001666999887675047,
+        "rollback_s": 6.009999196976423e-05,
+        "round_s": 0.10428980001597665,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1604
+        ],
+        "draft_s": 0.00036780000664293766,
+        "verify_s": 0.08624370000325143,
+        "commit_s": 0.00012409998453222215,
+        "rollback_s": 6.970000686123967e-05,
+        "round_s": 0.08681480001541786,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          5222
+        ],
+        "draft_s": 0.000363900006050244,
+        "verify_s": 0.0901972999854479,
+        "commit_s": 0.00016070000128820539,
+        "rollback_s": 6.120000034570694e-05,
+        "round_s": 0.09079879999626428,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          79
+        ],
+        "draft_s": 0.00040180000360123813,
+        "verify_s": 0.08915179999894463,
+        "commit_s": 8.670001989230514e-05,
+        "rollback_s": 4.3800013372674584e-05,
+        "round_s": 0.0897011999913957,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1714
+        ],
+        "draft_s": 0.00028420001035556197,
+        "verify_s": 0.09046579999267124,
+        "commit_s": 0.00021169998217374086,
+        "rollback_s": 6.340001709759235e-05,
+        "round_s": 0.09103260000119917,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          79
+        ],
+        "draft_s": 0.0003355000226292759,
+        "verify_s": 0.08471920000738464,
+        "commit_s": 9.960000170394778e-05,
+        "rollback_s": 5.529998452402651e-05,
+        "round_s": 0.08521719998680055,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          104
+        ],
+        "draft_s": 0.00033239999902434647,
+        "verify_s": 0.0871632999915164,
+        "commit_s": 0.000222100003156811,
+        "rollback_s": 7.860001642256975e-05,
+        "round_s": 0.08780480001587421,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          24
+        ],
+        "draft_s": 0.00039870000910013914,
+        "verify_s": 0.11568400001851842,
+        "commit_s": 0.00011820002691820264,
+        "rollback_s": 7.110001752153039e-05,
+        "round_s": 0.11627970001427457,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          104
+        ],
+        "draft_s": 0.0003873000096064061,
+        "verify_s": 0.08784300001570955,
+        "commit_s": 0.00024580000899732113,
+        "rollback_s": 5.9699988923966885e-05,
+        "round_s": 0.08854540000902489,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          28
+        ],
+        "draft_s": 0.00035859999479725957,
+        "verify_s": 0.08646399999270216,
+        "commit_s": 0.00010529998689889908,
+        "rollback_s": 5.9999991208314896e-05,
+        "round_s": 0.08700120000867173,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          329
+        ],
+        "draft_s": 0.0003735000209417194,
+        "verify_s": 0.10009030002402142,
+        "commit_s": 9.940000018104911e-05,
+        "rollback_s": 5.390000296756625e-05,
+        "round_s": 0.10065450001275167,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          28
+        ],
+        "draft_s": 0.0003319999959785491,
+        "verify_s": 0.08918660000199452,
+        "commit_s": 0.00010789997759275138,
+        "rollback_s": 5.870001041330397e-05,
+        "round_s": 0.0896925000124611,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1892
+        ],
+        "draft_s": 0.00035829999251291156,
+        "verify_s": 0.07593569997698069,
+        "commit_s": 0.00010000000474974513,
+        "rollback_s": 8.420000085607171e-05,
+        "round_s": 0.07648780001909472,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          727
+        ],
+        "draft_s": 0.00033310000435449183,
+        "verify_s": 0.08848540001781657,
+        "commit_s": 0.00029600001289509237,
+        "rollback_s": 9.610000415705144e-05,
+        "round_s": 0.08921969999209978,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          472
+        ],
+        "draft_s": 0.000761799979954958,
+        "verify_s": 0.08975899999495596,
+        "commit_s": 0.00010850001126527786,
+        "rollback_s": 5.879998207092285e-05,
+        "round_s": 0.09069569999701343,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1620
+        ],
+        "draft_s": 0.00035119999665766954,
+        "verify_s": 0.08849319998989813,
+        "commit_s": 0.00015979999443516135,
+        "rollback_s": 5.599998985417187e-05,
+        "round_s": 0.08906860000570305,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          14362
+        ],
+        "draft_s": 0.0003333000058773905,
+        "verify_s": 0.08535579999443144,
+        "commit_s": 8.939998224377632e-05,
+        "rollback_s": 4.980000085197389e-05,
+        "round_s": 0.08583649998763576,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          260
+        ],
+        "draft_s": 0.00039370000013150275,
+        "verify_s": 0.08430210000369698,
+        "commit_s": 9.980000322684646e-05,
+        "rollback_s": 5.259999306872487e-05,
+        "round_s": 0.08486370000173338,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          5222
+        ],
+        "draft_s": 0.00035030001890845597,
+        "verify_s": 0.08162710000760853,
+        "commit_s": 0.00010289999772794545,
+        "rollback_s": 4.7299981815740466e-05,
+        "round_s": 0.08213520000572316,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          282
+        ],
+        "draft_s": 0.00032560000545345247,
+        "verify_s": 0.08580880000954494,
+        "commit_s": 0.00014719998580403626,
+        "rollback_s": 7.449998520314693e-05,
+        "round_s": 0.08636960000148974,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          1792
+        ],
+        "draft_s": 0.0009139000030700117,
+        "verify_s": 0.09318440000060946,
+        "commit_s": 0.000367600005120039,
+        "rollback_s": 6.3000014051795e-05,
+        "round_s": 0.09456629998749122,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          284
+        ],
+        "draft_s": 0.0003339000104460865,
+        "verify_s": 0.0,
+        "commit_s": 5.699985194951296e-06,
+        "rollback_s": 0.0,
+        "round_s": 0.0003406000032555312,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": true
+      }
+    ]
+  },
+  {
+    "prompt": "Item A: checked.\nItem B: checked.\nItem C:",
+    "output_ids": [
+      12775,
+      30,
+      198,
+      12659,
+      422,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      414,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      426,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      452,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      407,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      339,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      530,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      659,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      450,
+      42,
+      12775,
+      30,
+      198,
+      12659,
+      372,
+      42,
+      12775,
+      30,
+      198,
+      12659
+    ],
+    "output_text": " checked.\nItem D: checked.\nItem E: checked.\nItem F: checked.\nItem G: checked.\nItem H: checked.\nItem I: checked.\nItem J: checked.\nItem K: checked.\nItem L: checked.\nItem M: checked.\nItem",
+    "setup_s": 5.00003807246685e-07,
+    "prefill_s": 0.12779100000625476,
+    "decode_s": 5.577363499993226,
+    "warm_request_s": 5.705222799995681,
+    "rounds": [
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.0003794000076595694,
+        "verify_s": 0.0840535000024829,
+        "commit_s": 0.0007280999852810055,
+        "rollback_s": 8.299999171867967e-05,
+        "round_s": 0.08528130000922829,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0006862000154796988,
+        "verify_s": 0.08787879999727011,
+        "commit_s": 9.239997598342597e-05,
+        "rollback_s": 4.5199994929134846e-05,
+        "round_s": 0.0887133999785874,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00032890000147745013,
+        "verify_s": 0.08811499999137595,
+        "commit_s": 0.00015800000983290374,
+        "rollback_s": 5.7199998991563916e-05,
+        "round_s": 0.08867369999643415,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.00033909999183379114,
+        "verify_s": 0.08099590000347234,
+        "commit_s": 0.00013529998250305653,
+        "rollback_s": 7.730000652372837e-05,
+        "round_s": 0.08155560001614504,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          422
+        ],
+        "draft_s": 0.00060450000455603,
+        "verify_s": 0.08596110000507906,
+        "commit_s": 0.00020860001677647233,
+        "rollback_s": 6.409999332390726e-05,
+        "round_s": 0.08685039999545552,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.0003696999920066446,
+        "verify_s": 0.0829154999810271,
+        "commit_s": 0.00010340000153519213,
+        "rollback_s": 5.6199991377070546e-05,
+        "round_s": 0.08345430000917986,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.00035849999403581023,
+        "verify_s": 0.08591979998163879,
+        "commit_s": 0.00010570001904852688,
+        "rollback_s": 5.9200014220550656e-05,
+        "round_s": 0.08645410000463016,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003698999935295433,
+        "verify_s": 0.08238880001590587,
+        "commit_s": 0.00017980000120587647,
+        "rollback_s": 5.4199976148083806e-05,
+        "round_s": 0.08300210000015795,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0003406000032555312,
+        "verify_s": 0.0787555999995675,
+        "commit_s": 8.759999764151871e-05,
+        "rollback_s": 5.43000060133636e-05,
+        "round_s": 0.07925020001130179,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.00029609998455271125,
+        "verify_s": 0.07551709999097511,
+        "commit_s": 0.00010480001219548285,
+        "rollback_s": 5.560001591220498e-05,
+        "round_s": 0.0759820000093896,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          414
+        ],
+        "draft_s": 0.0003434999962337315,
+        "verify_s": 0.06888110001455061,
+        "commit_s": 0.00010239999392069876,
+        "rollback_s": 6.0399994254112244e-05,
+        "round_s": 0.06939740001689643,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.0003501000173855573,
+        "verify_s": 0.08032410001032986,
+        "commit_s": 9.239997598342597e-05,
+        "rollback_s": 5.150001379661262e-05,
+        "round_s": 0.0808266999956686,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.0003473999968264252,
+        "verify_s": 0.07841049999115057,
+        "commit_s": 0.0001398000167682767,
+        "rollback_s": 4.749998333863914e-05,
+        "round_s": 0.07895759999519214,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.00032690001535229385,
+        "verify_s": 0.08804309999686666,
+        "commit_s": 0.00010730000212788582,
+        "rollback_s": 5.9699988923966885e-05,
+        "round_s": 0.08855240000411868,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0003294000052846968,
+        "verify_s": 0.10252859999309294,
+        "commit_s": 0.000169299979461357,
+        "rollback_s": 6.340001709759235e-05,
+        "round_s": 0.10309879999840632,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.00034860000596381724,
+        "verify_s": 0.09743559997878037,
+        "commit_s": 9.950000094249845e-05,
+        "rollback_s": 4.879999323748052e-05,
+        "round_s": 0.09794589999364689,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          426
+        ],
+        "draft_s": 0.000308899994706735,
+        "verify_s": 0.08884609999950044,
+        "commit_s": 0.00018629999249242246,
+        "rollback_s": 7.229999755509198e-05,
+        "round_s": 0.08942619999288581,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.00033660000190138817,
+        "verify_s": 0.09672430000500754,
+        "commit_s": 0.00011659998563118279,
+        "rollback_s": 6.680001388303936e-05,
+        "round_s": 0.09725829999661073,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.00037420002627186477,
+        "verify_s": 0.07998260000022128,
+        "commit_s": 8.760002674534917e-05,
+        "rollback_s": 4.370001261122525e-05,
+        "round_s": 0.08049709998886101,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.00028390000807121396,
+        "verify_s": 0.07769009997718967,
+        "commit_s": 0.00028390000807121396,
+        "rollback_s": 6.239998037926853e-05,
+        "round_s": 0.0783268999948632,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0004895999736618251,
+        "verify_s": 0.08464070002082735,
+        "commit_s": 0.00011520000407472253,
+        "rollback_s": 7.589999586343765e-05,
+        "round_s": 0.08533219998935238,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.0005064999859314412,
+        "verify_s": 0.08479799999622628,
+        "commit_s": 0.0001768999791238457,
+        "rollback_s": 6.010002107359469e-05,
+        "round_s": 0.08555049999267794,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          452
+        ],
+        "draft_s": 0.0003464000183157623,
+        "verify_s": 0.09296539999195375,
+        "commit_s": 8.50000069476664e-05,
+        "rollback_s": 5.49999822396785e-05,
+        "round_s": 0.09346050000749528,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.0003488000074867159,
+        "verify_s": 0.09146270001656376,
+        "commit_s": 8.749999688006938e-05,
+        "rollback_s": 4.499999340623617e-05,
+        "round_s": 0.09195110001019202,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.0002857999934349209,
+        "verify_s": 0.0997780000034254,
+        "commit_s": 0.0002285000227857381,
+        "rollback_s": 5.750000127591193e-05,
+        "round_s": 0.10037279999232851,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.00034569998388178647,
+        "verify_s": 0.08908180001890287,
+        "commit_s": 9.649997809901834e-05,
+        "rollback_s": 5.639999289996922e-05,
+        "round_s": 0.08959309998317622,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00035000001662410796,
+        "verify_s": 0.09786090001580305,
+        "commit_s": 9.630000567995012e-05,
+        "rollback_s": 5.530001362785697e-05,
+        "round_s": 0.09837079999851994,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.00033060001442208886,
+        "verify_s": 0.09751740001956932,
+        "commit_s": 0.00010850001126527786,
+        "rollback_s": 5.9399986639618874e-05,
+        "round_s": 0.09802350000245497,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          407
+        ],
+        "draft_s": 0.000374399998690933,
+        "verify_s": 0.09672979998867959,
+        "commit_s": 8.880000677891076e-05,
+        "rollback_s": 6.0399994254112244e-05,
+        "round_s": 0.09727239998755977,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.0002853000187315047,
+        "verify_s": 0.08676000000559725,
+        "commit_s": 0.00017350001144222915,
+        "rollback_s": 5.560001591220498e-05,
+        "round_s": 0.0872811000153888,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.00035990000469610095,
+        "verify_s": 0.09088669999619015,
+        "commit_s": 0.00010430000838823617,
+        "rollback_s": 5.930001498199999e-05,
+        "round_s": 0.09141950000775978,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003533000126481056,
+        "verify_s": 0.09912560001248494,
+        "commit_s": 0.00012100001913495362,
+        "rollback_s": 6.510000093840063e-05,
+        "round_s": 0.09967369999503717,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00034389999927952886,
+        "verify_s": 0.08910870002000593,
+        "commit_s": 0.00023450001026503742,
+        "rollback_s": 6.520000169984996e-05,
+        "round_s": 0.08978700000443496,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.0003549999964889139,
+        "verify_s": 0.08104140000068583,
+        "commit_s": 8.759999764151871e-05,
+        "rollback_s": 6.10999995842576e-05,
+        "round_s": 0.08155900001293048,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          339
+        ],
+        "draft_s": 0.00029779999749735,
+        "verify_s": 0.08636450002086349,
+        "commit_s": 0.00016110000433400273,
+        "rollback_s": 8.990001515485346e-05,
+        "round_s": 0.08692209998844191,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.00036550001823343337,
+        "verify_s": 0.08113550001871772,
+        "commit_s": 9.290000889450312e-05,
+        "rollback_s": 5.460000829771161e-05,
+        "round_s": 0.08166320002055727,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.00035170000046491623,
+        "verify_s": 0.08205730002373457,
+        "commit_s": 0.00011110000195913017,
+        "rollback_s": 5.9999991208314896e-05,
+        "round_s": 0.08258779998868704,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003862000012304634,
+        "verify_s": 0.08349980000639334,
+        "commit_s": 0.0001469000126235187,
+        "rollback_s": 4.9299997044727206e-05,
+        "round_s": 0.0840950999991037,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00033370000892318785,
+        "verify_s": 0.08173100001295097,
+        "commit_s": 8.74000252224505e-05,
+        "rollback_s": 4.569999873638153e-05,
+        "round_s": 0.0822148000006564,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.0002851999888662249,
+        "verify_s": 0.0849216999777127,
+        "commit_s": 0.0001723000023048371,
+        "rollback_s": 5.900001269765198e-05,
+        "round_s": 0.08544549997895956,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          530
+        ],
+        "draft_s": 0.00033439998514950275,
+        "verify_s": 0.08458059999975376,
+        "commit_s": 0.00010969999129883945,
+        "rollback_s": 6.560000474564731e-05,
+        "round_s": 0.08509810001123697,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.0003992999845650047,
+        "verify_s": 0.07924069999717176,
+        "commit_s": 0.00012450001668184996,
+        "rollback_s": 5.600001895800233e-05,
+        "round_s": 0.07983010000316426,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.0003335000074002892,
+        "verify_s": 0.08157670000218786,
+        "commit_s": 9.800001862458885e-05,
+        "rollback_s": 5.709999823011458e-05,
+        "round_s": 0.08207290002610534,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.00033870001789182425,
+        "verify_s": 0.08193670000764541,
+        "commit_s": 0.0002945000014733523,
+        "rollback_s": 6.769999163225293e-05,
+        "round_s": 0.08264550002058968,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00037819999852217734,
+        "verify_s": 0.08580780000193045,
+        "commit_s": 9.390001650899649e-05,
+        "rollback_s": 5.569998756982386e-05,
+        "round_s": 0.08634449998498894,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.0003282999969087541,
+        "verify_s": 0.08311040000990033,
+        "commit_s": 0.00015659999917261302,
+        "rollback_s": 5.800000508315861e-05,
+        "round_s": 0.08366110001225024,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          659
+        ],
+        "draft_s": 0.0003529000096023083,
+        "verify_s": 0.0822485999960918,
+        "commit_s": 8.789999992586672e-05,
+        "rollback_s": 4.759998410008848e-05,
+        "round_s": 0.08274629997322336,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.00028429998201318085,
+        "verify_s": 0.09557599999243394,
+        "commit_s": 0.00020179999410174787,
+        "rollback_s": 7.82000133767724e-05,
+        "round_s": 0.09614739997778088,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.0006317000079434365,
+        "verify_s": 0.09232380002504215,
+        "commit_s": 0.00012780001270584762,
+        "rollback_s": 7.429998368024826e-05,
+        "round_s": 0.09316540000145324,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003532000118866563,
+        "verify_s": 0.08119610001449473,
+        "commit_s": 0.00032580000697635114,
+        "rollback_s": 8.009999874047935e-05,
+        "round_s": 0.08196460001636297,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0006437999836634845,
+        "verify_s": 0.0821214999887161,
+        "commit_s": 0.00010710000060498714,
+        "rollback_s": 5.880001117475331e-05,
+        "round_s": 0.08294110000133514,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.0003318999952170998,
+        "verify_s": 0.10483220001333393,
+        "commit_s": 8.779999916441739e-05,
+        "rollback_s": 4.169999738223851e-05,
+        "round_s": 0.10530060000019148,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          450
+        ],
+        "draft_s": 0.00032699998700991273,
+        "verify_s": 0.07782780000707135,
+        "commit_s": 9.329998283647001e-05,
+        "rollback_s": 5.8200006606057286e-05,
+        "round_s": 0.0783137000107672,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.0003260999801568687,
+        "verify_s": 0.08507129998179153,
+        "commit_s": 9.010001667775214e-05,
+        "rollback_s": 5.690002581104636e-05,
+        "round_s": 0.0855561999778729,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.00033389998134225607,
+        "verify_s": 0.08782670000800863,
+        "commit_s": 0.00017790001584216952,
+        "rollback_s": 5.879998207092285e-05,
+        "round_s": 0.08840449998388067,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003327000013086945,
+        "verify_s": 0.09316899999976158,
+        "commit_s": 9.670000872574747e-05,
+        "rollback_s": 5.5899989092722535e-05,
+        "round_s": 0.09366230000159703,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.0003318000235594809,
+        "verify_s": 0.13008880001143552,
+        "commit_s": 0.0001813999842852354,
+        "rollback_s": 0.00010830000974237919,
+        "round_s": 0.13071880000643432,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.00046380001003853977,
+        "verify_s": 0.11032330000307411,
+        "commit_s": 0.00016009999671950936,
+        "rollback_s": 5.840000812895596e-05,
+        "round_s": 0.11102480001864024,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          372
+        ],
+        "draft_s": 0.00033500001882202923,
+        "verify_s": 0.09383260001777671,
+        "commit_s": 0.00014670001110062003,
+        "rollback_s": 8.209998486563563e-05,
+        "round_s": 0.0944067999953404,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          42
+        ],
+        "draft_s": 0.000371300004189834,
+        "verify_s": 0.09268490000977181,
+        "commit_s": 0.0003200999926775694,
+        "rollback_s": 5.529998452402651e-05,
+        "round_s": 0.09344100000453182,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12775
+        ],
+        "draft_s": 0.00030540002626366913,
+        "verify_s": 0.09069889999227598,
+        "commit_s": 9.499999578110874e-05,
+        "rollback_s": 5.490001058205962e-05,
+        "round_s": 0.09116199999698438,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          30
+        ],
+        "draft_s": 0.0003291000030003488,
+        "verify_s": 0.08516580000286922,
+        "commit_s": 0.00010659999679774046,
+        "rollback_s": 5.8600009651854634e-05,
+        "round_s": 0.08566750001045875,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          198
+        ],
+        "draft_s": 0.00035829999251291156,
+        "verify_s": 0.08380890000262298,
+        "commit_s": 0.00010070001007989049,
+        "rollback_s": 5.9699988923966885e-05,
+        "round_s": 0.08433810001588427,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": false
+      },
+      {
+        "budget": 0,
+        "draft": [],
+        "accepted": 0,
+        "committed": [
+          12659
+        ],
+        "draft_s": 0.00032210000790655613,
+        "verify_s": 0.0,
+        "commit_s": 9.000010322779417e-06,
+        "rollback_s": 0.0,
+        "round_s": 0.0003321000258438289,
+        "discarded": 0,
+        "failed": false,
+        "final_shortcut": true
+      }
+    ]
+  }
+]
